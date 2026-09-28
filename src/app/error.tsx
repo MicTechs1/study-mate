@@ -11,7 +11,7 @@ export default function Error({
   retry: () => void;
 }) {
   useEffect(() => {
-    console.error("StudyMate route error", {
+    console.error("StudyMate route errors", {
       digest: error.digest,
       message: error.message,
     });
